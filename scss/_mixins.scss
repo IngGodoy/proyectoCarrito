@@ -1,0 +1,19 @@
+@mixin flexBox ($dirrecion){
+    display: flex;
+    flex-direction: $dirrecion; //row -column "colocar en fila o columna"
+    align-items: center;
+}
+//mixin para el cuadro de formulario y carrito de compras
+@mixin cuadros($margin){
+    background-color:#D5D8DC;
+    border-radius: 12px;
+    border-color:$colorMain;
+    border-style: solid;
+    margin-left: $margin;
+    border-style: solid;
+}
+// espacio de top y botton de las cajas
+@mixin paddingCajas($top, $bottom){
+    padding-top: $top;
+    padding-bottom: $bottom;
+}
