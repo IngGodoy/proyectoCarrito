@@ -194,9 +194,9 @@ th, tr, td {
   border-collapse: collapse;
   padding: 8px;
 }
-#formulario form #btn-formulario {
+#formulario form .btn-formulario {
   display: flex;
-  justify-content: center;
+  justify-content: end;
 }
 
 /*# sourceMappingURL=main.css.map */

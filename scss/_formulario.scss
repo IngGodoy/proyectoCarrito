@@ -3,9 +3,9 @@
         @include cuadros(10%);
          border-collapse: collapse; 
         padding: 8px;
-        #btn-formulario {
+         .btn-formulario {
             display: flex;
-            justify-content: center;
+            justify-content: end;
         }
     }
 }
