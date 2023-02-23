@@ -44,27 +44,41 @@
 
     <main id="formulario">
         <h2>Envíanos tus dudas y te contestaremos en menos de 24hr</h2>
-        <form action="">
-            <div>
-                <label for="nombre">Nombre: </label>
-                <input type="text">
+        <!-- fomulario con bs-->
+        <form class="row g-3">
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <label for="validationDefault01" class="form-label">Nombre y Apellido</label>
+            <input type="text" class="form-control" id="validationDefault01" placeholder="agregue el nombre" required>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <label for="validationDefault02" class="form-label" >Correo Elecronico</label>
+            <input type="text" class="form-control" id="validationDefault03" placeholder="corre@gmail.com" required>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <label for="validationDefault03" class="form-label">Ciudad</label>
+            <input type="text" class="form-control" id="validationDefault04" placeholder="nombre de la cuidad" required>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <label for="validationDefault04" class="form-label">Número telefónico</label>
+            <input type="text" class="form-control" id="validationDefault04" placeholder="nombre de la cuidad" required>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <label for="validationDefault06" class="form-label">Dejanos tus comentarios</label>
+            <textarea class="form-control" placeholder="agregue un texto" id="validationDefault05"></textarea>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+              <label class="form-check-label" for="invalidCheck2">
+                Acepta los términos y condiciones
+              </label>
             </div>
-            <div>
-                <label for="corre">Corre electrónico: </label>
-                <input type="text">
-            </div>
-            <div>
-                <label for="telefono">Numero de Teléfono: </label>
-                <input type="text">
-            </div>
-            <div >
-                <label for="comentario">Envíanos tu comentario: </label>
-                <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
-            </div>
-            <div>
-                <button> Enviar</button>
-            </div>
+          </div>
+          <div class="col-12 btn-formulario">
+            <button class="btn btn-primary" type="submit">Enviar formulario</button>
+          </div>
         </form>
+        <!-- fin de fomulario con bs-->
     </main>
     <footer>
       <div id="textFooter">

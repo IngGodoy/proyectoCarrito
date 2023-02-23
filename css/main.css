@@ -39,27 +39,15 @@ main #seccionPrincipal div img:hover {
   width: 205px;
   height: 205px;
 }
-main form {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  background-color: #D5D8DC;
-  border-radius: 12px;
-  border-color: #060606;
-  border-style: solid;
-  margin-left: 20%;
-  border-style: solid;
-  width: 60%;
-}
-main form div {
-  margin: 10px;
-}
 main table {
   background-color: #D5D8DC;
   border-radius: 12px;
   border-color: #060606;
   border-style: solid;
   margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border-style: solid;
   border-collapse: collapse;
 }
@@ -149,10 +137,6 @@ footer #redesSociales img {
     padding: 5px;
   }
 }
-#carritoCompras {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
 #carritoCompras h3 {
   text-align: center;
 }
@@ -197,9 +181,22 @@ th, tr, td {
   text-align: center;
 }
 
-#formulario {
-  padding-top: 10px;
-  padding-bottom: 10px;
+#formulario form {
+  background-color: #D5D8DC;
+  border-radius: 12px;
+  border-color: #060606;
+  border-style: solid;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-collapse: collapse;
+  padding: 8px;
+}
+#formulario form #btn-formulario {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=main.css.map */
