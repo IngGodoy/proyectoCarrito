@@ -127,7 +127,11 @@ footer #redesSociales img {
   header .logo-sm {
     display: flex;
     justify-content: center;
-    margin-left: 100%;
+    margin-left: 48%;
+  }
+  header .logo-sm-form {
+    display: flex;
+    justify-content: center;
   }
   section {
     display: flex;
