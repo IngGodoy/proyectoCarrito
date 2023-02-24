@@ -18,8 +18,7 @@ main{
     #img-compu{
         display:flex;
         justify-content:center;
-        background-color: #6B17D0;
-        
+        background-color: #6B17D0; 
       }
     h2{
     padding-top: 10px;
@@ -82,14 +81,16 @@ footer{
         "nav"
         "titulo"
         "logo";
+        .logo-sm{
+            display: flex;
+            justify-content: center;
+            margin-left: 100%;
+        }
     }
+    
     section{
         @include flexBox (column);
      } 
-     section div a, #titulo, #logo {
-         margin-left: 30%;
-         margin-right: 25%;
-    }
     #redesSociales div{
         margin-right: 20px;
     }

@@ -110,14 +110,15 @@ footer #redesSociales img {
     display: grid;
     grid-template-areas: "nav" "titulo" "logo";
   }
+  header .logo-sm {
+    display: flex;
+    justify-content: center;
+    margin-left: 100%;
+  }
   section {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  section div a, #titulo, #logo {
-    margin-left: 30%;
-    margin-right: 25%;
   }
   #redesSociales div {
     margin-right: 20px;
