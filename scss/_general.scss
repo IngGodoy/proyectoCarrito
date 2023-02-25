@@ -5,7 +5,9 @@
     font-family: $tipoLetra;    
 }
 h1{
+    padding-top: 10px;
     font-weight:$letratitulo;
+    text-align: center;
 }
 h2{
     font-weight:$subTitulo;
@@ -75,34 +77,6 @@ footer{
     }
 }
 @media(max-width:768px){
-    /* GRID AREAS*/
-    header{
-        grid-area: header;
-    }
-    #logo{
-        grid-area: logo;
-    }
-    #titulo{
-        grid-area:titulo;
-    }
-    /*colocando posicion de areas*/
-    header{
-        display: grid;
-        grid-template-areas: 
-        "nav"
-        "titulo"
-        "logo";
-        .logo-sm{
-            display: flex;
-            justify-content: center;
-            margin-left: 48%;
-        }
-        .logo-sm-form{
-            display: flex;
-            justify-content: center;
-        }
-    }
-    
     section{
         @include flexBox (column);
      } 
@@ -110,7 +84,7 @@ footer{
         margin-right: 20px;
     }
     #logo img {
-        height: 7vh;
+        height: 20vh;
      }  
     table{
             width: 300px;
@@ -122,6 +96,11 @@ footer{
         .caja-eliminar{
            width: 0;
         }
+    #error404{
+            img{
+                width: 300px;
+            }
+    }
  }
  @media(min-width:769px){
     //codigo para garantizar que el footer este siempre abajo y el boddy 100% pantalla
@@ -145,6 +124,11 @@ footer{
     #carritoCompras{
         th,tr,td{
             padding: 5px;
+        }
+    }
+    #error404{
+        img{
+            width: 500px;
         }
     }
      

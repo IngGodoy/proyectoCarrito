@@ -30,7 +30,9 @@ button:active {
 }
 
 h1 {
+  padding-top: 10px;
   font-weight: 700;
+  text-align: center;
 }
 
 h2 {
@@ -109,30 +111,6 @@ footer #redesSociales img {
 }
 
 @media (max-width: 768px) {
-  /* GRID AREAS*/
-  header {
-    grid-area: header;
-  }
-  #logo {
-    grid-area: logo;
-  }
-  #titulo {
-    grid-area: titulo;
-  }
-  /*colocando posicion de areas*/
-  header {
-    display: grid;
-    grid-template-areas: "nav" "titulo" "logo";
-  }
-  header .logo-sm {
-    display: flex;
-    justify-content: center;
-    margin-left: 48%;
-  }
-  header .logo-sm-form {
-    display: flex;
-    justify-content: center;
-  }
   section {
     display: flex;
     flex-direction: column;
@@ -142,7 +120,7 @@ footer #redesSociales img {
     margin-right: 20px;
   }
   #logo img {
-    height: 7vh;
+    height: 20vh;
   }
   table {
     width: 300px;
@@ -153,6 +131,9 @@ footer #redesSociales img {
   }
   .caja-eliminar {
     width: 0;
+  }
+  #error404 img {
+    width: 300px;
   }
 }
 @media (min-width: 769px) {
@@ -178,23 +159,22 @@ footer #redesSociales img {
   #carritoCompras th, #carritoCompras tr, #carritoCompras td {
     padding: 5px;
   }
+  #error404 img {
+    width: 500px;
+  }
 }
-#carritoCompras h3 {
-  text-align: center;
+#error404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-#carritoCompras p {
-  text-align: center;
+#error404 button {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-#carritoCompras #btn-comprar {
-  margin-left: 45%;
-}
-#carritoCompras .btn-carrito button {
-  padding-left: 10px;
-}
-
-th, tr, td {
-  border: 2px solid #060606;
-  text-align: center;
+#error404 button a {
+  text-decoration: none;
+  color: #FDFEFE;
 }
 
 #seccionComputadoras {

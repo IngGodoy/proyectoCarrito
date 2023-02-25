@@ -1,0 +1,12 @@
+#error404{
+    @include flexBox (column);
+    button{
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        a{
+            text-decoration:none;
+            color: #FDFEFE;
+        }
+    }
+}
